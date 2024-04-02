@@ -1,0 +1,26 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "workspace": {
+            "type": "String",
+            "metadata": {
+                "description": "Log Analytics Workspace Name"
+            }
+        }
+    },
+    "resources": [
+        {
+            "properties": {
+                "category": "Exclusion",
+                "displayName": "Sophos_Event_Endpoint_Application_Common_Application22",
+                "query": "pack_array(\r\n \"Internet Browser\",\r\n \"Dell RemoteAssist\",\r\n \"Dell Peripheral Manager\",\r\n \"Anydesk\"\r\n)",
+                "functionAlias": "Sophos_Event_Endpoint_Application_Common_Application",
+                "version": 2
+            },
+            "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/4430ea97-67ec-4f06-b188-0afbef45cb31_sophos_event_endpoint_application_aplicaciones_comunes')]",
+            "type": "Microsoft.OperationalInsights/workspaces/providers/savedSearches",
+            "apiVersion": "2020-08-01"
+        }
+    ]
+}
