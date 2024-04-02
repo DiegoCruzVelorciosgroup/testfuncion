@@ -10,7 +10,7 @@
     {
       "type": "Microsoft.OperationalInsights/workspaces/savedSearches",
       "apiVersion": "2020-08-01",
-      "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/4430ea97-67ec-4f06-b188-0afbef45cb31_sophos_event_endpoint_application_aplicaciones_comunes')]",
+      "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/4430ea97-67ec-4f06-b188-0afbef45cb31_sophos_event_endpoint_application_aplicaciones_comunes22')]",
       "location": "[resourceGroup().location]",
       "properties": {
         "category": "Exclusion",
