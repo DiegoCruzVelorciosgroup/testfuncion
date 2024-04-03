@@ -15,7 +15,7 @@
                 "category": "Exclusion",
                 "displayName": "Sophos_Event_Endpoint_Application_Common_Application22",
                 "query": "pack_array(\r\n \"Internet Browser\",\r\n \"Dell RemoteAssis\",\r\n \"Dell Peripheral Manager\",\r\n \"Anydesk\"\r\n)",
-                "functionAlias": "Sophos_Event_Endpoint_Application_Common_Application",
+                "functionAlias": "Sophos_Event_Endpoint_Application_Common_Application22",
                 "version": 2
             },
             "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/4430ea97-67ec-4f06-b188-0afbef45cb31_sophos_event_endpoint_application_aplicaciones_comunes')]",
