@@ -16,7 +16,7 @@
         "etag": "*",
         "displayName": "Sophos_Event_Endpoint_Application_Common_Application22",
         "category": "Exclusion",
-        "functionAlias": "Sophos_Event_Endpoint_Application_Common_Application",
+        "functionAlias": "Sophos_Event_Endpoint_Application_Common_Application22",
         "query": "pack_array(\r\n \"Internet Browser\",\r\n \"Dell RemoteAssis\",\r\n \"Dell Peripheral Manager\",\r\n \"Anydesk\"\r\n)",
         "version": 1
       }
