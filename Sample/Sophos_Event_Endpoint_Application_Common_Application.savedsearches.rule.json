@@ -10,14 +10,15 @@
     {
       "type": "Microsoft.OperationalInsights/workspaces/savedSearches",
       "apiVersion": "2020-08-01",
-      "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/4430ea97-67ec-4f06-b188-0afbef45cb31_sophos_event_endpoint_application_aplicaciones_comunes22')]",
+      "name": "[concat(parameters('workspace'), '/Sophos_Event_Endpoint_Application_Common_Application22')]",
       "location": "[resourceGroup().location]",
       "properties": {
-        "category": "Exclusion",
+        "etag": "*",
         "displayName": "Sophos_Event_Endpoint_Application_Common_Application22",
-        "query": "pack_array(\r\n \"Internet Browser\",\r\n \"Dell RemoteAssis\",\r\n \"Dell Peripheral Manager\",\r\n \"Anydesk\"\r\n)",
+        "category": "Exclusion",
         "functionAlias": "Sophos_Event_Endpoint_Application_Common_Application",
-        "version": 2
+        "query": "pack_array(\r\n \"Internet Browser\",\r\n \"Dell RemoteAssis\",\r\n \"Dell Peripheral Manager\",\r\n \"Anydesk\"\r\n)",
+        "version": 1
       }
     }
   ]
